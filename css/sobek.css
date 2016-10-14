@@ -1,0 +1,299 @@
+body {
+    background-color: #e5e5e5;
+}
+
+#container {
+    max-width: 1280px;
+}
+
+.title {
+    color: #333;
+    padding-left: 15px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+#container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.options {
+    border-color: #f8f8f8;
+    border-radius: 0;
+    margin-bottom: 5px;
+}
+
+.breadcrumb {
+    margin-bottom: 0px;
+    padding: 5px 30px;
+}
+
+.banner {
+    background-color: #f8f8f8;
+}
+
+.navbar-default .navbar-nav > li > a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.navbar-toggle {
+    background-color: #f2a900 !important;
+}
+
+.icon-bar {
+    background-color: white !important;
+}
+
+/* enable absolute positioning */
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align glyph */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+#searchBox form {
+    width: 100%;
+}
+
+#searchBoxMiddle form {
+    width: 50%;
+}
+
+#searchBox .form-group {
+    width: 100%;
+}
+
+#searchBoxMiddle .form-group {
+    width: 100%;
+}
+
+#searchBox .form-control {
+    width: 100%;
+}
+
+#searchBoxMiddle .form-control {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    #searchBox form {
+        width: 100%;
+    }
+    #searchBoxMiddle form {
+        width: 100%;
+    }
+    nav.sm-icons {
+        float: left !important;
+    }
+}
+
+nav.misc {
+    clear: left;
+    float: left;
+    font-size: 0.96em;
+    margin: 24px 0 0;
+    text-align: left;
+}
+
+nav.misc ul {
+    list-style-type: none;
+}
+
+nav.misc ul li {
+    border-right: 1px solid #fff;
+    display: inline;
+    float: left;
+    margin-right: 6px;
+    padding-right: 6px;
+}
+
+nav.misc ul li:last-child {
+    border-right: medium none;
+}
+
+footer nav a {
+    color: white;
+}
+
+footer nav a:hover {
+    color: white;
+}
+
+nav.sm-icons {
+    float: right;
+    margin: 8px 0;
+}
+
+footer nav.sm-icons ul li {
+    background-image: none;
+    clear: none;
+    display: inline;
+    float: left;
+    margin-right: 8px;
+    padding-left: 0;
+}
+
+footer nav.sm-icons ul li a {
+    background-image: url("../images/sm-sprite.png");
+    display: block;
+    height: 31px;
+    text-indent: -9999px;
+    width: 31px;
+}
+
+.sm-icons ul li.fb a {
+    background-position: -39px 0;
+}
+
+.sm-icons ul li.gp a {
+    background-position: -78px 0;
+}
+
+.sm-icons ul li.yt a {
+    background-position: -117px 0;
+}
+
+.sm-icons ul li.in a {
+    background-position: -312px 0;
+}
+
+.sm-icons ul li.sc a {
+    background-position: -156px 0;
+}
+
+.sm-icons ul li.ig a {
+    background-position: -273px 0;
+}
+
+.sm-icons ul li.uk a {
+    background-position: -195px 0;
+}
+
+hr {
+    border-color: #f2a900 -moz-use-text-color -moz-use-text-color;
+    border-top-color:#f2a900;
+
+}
+
+.pBottom {
+    padding-bottom: 2%;
+}
+
+.footerPadd {
+    padding: 2%;
+}
+
+.footerBackg {
+    background-color: black;
+}
+
+.footerBackg div {
+    padding: 1%;
+}
+
+.footerPadd div span a {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.pBottom div span a {
+    font-size: 14px;
+}
+
+.whiteText {
+    color: white;
+}
+
+.whiteText:hover, .whiteText:focus {
+    color: white;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+#tiles {
+    padding-top: 1%;
+    padding-bottom:1%;
+}
+
+.imgPadding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.imgPadding img {
+    width: 100%;
+}
+
+.wordmark {
+    text-align: center;
+}
+
+.wordmarkImage {
+    max-width: 225px;
+    max-height: 90px;
+}
+
+.tile{
+    height: 214px;
+}
+
+.subcollections {
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+.subcollLinks {
+    word-wrap: break-word;
+    vertical-align: top;
+    color: black;
+}
+
+.hc-details {
+    word-wrap: break-word;
+    vertical-align: top;
+    color: black;
+}
+
+.subcolOpt:hover {
+    text-decoration: none !important;
+}
+
+.subcolOpt span:hover {
+    text-decoration: underline !important;
+}
+
+.subcolOptImg:hover, .subcolOptImg:focus {
+    text-decoration: none;
+}
+
+.colOpt {
+    padding-top:  5px;
+    padding-bottom: 5px;
+}
+
+.colOpt:hover {
+    background-color: #e7e7e7;
+}
+
+a {outline : none;}

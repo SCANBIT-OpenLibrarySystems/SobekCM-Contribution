@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Homepage</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- SOBEK CSS -->
+    <link href="css/sobek.css" rel="stylesheet">
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    
+    <!-- Map CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  
+  <div id="container" class="container-fluid">
+  	
+  	  <div class="container-fluid banner imgPadding">
+	  	<div class="col-sm-9 col-md-9 col-xs-9">
+	  		<a href="http://digital.soas.ac.uk/" target="_blank">
+	  			<h2 class="title">SOAS Digital Collections</h2>
+	  		</a>
+	  	</div>
+	  	<div class="col-sm-3 col-md-3 col-xs-3">
+	  		<a href="/" target="_blank">
+	  			<img src="http://digital.soas.ac.uk/design/skins/SOAS/SOASwdmk.png" class="wordmarkImage"/>
+	  		</a>
+	  	</div>
+	  	<div id="searchBoxMiddle" class="col-sm-12 col-md-12 col-xs-12">
+	  		<form class="navbar-form navbar-right" role="search">
+			  <div class="form-group inner-addon right-addon">
+			    <i class="glyphicon glyphicon-search"></i>
+			    <input type="text" class="form-control" placeholder="Search the collection">
+			  </div>
+			</form>
+	  	</div>
+	  </div>
+  	
+  	  <nav class="navbar navbar-default options">
+		  <div>
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		    </div>
+		
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <!-- Left navbar (Options) -->
+		      <ul class="nav navbar-nav navbar-left">
+		        <li><a href="http://digital.soas.ac.uk/regions/" target="_blank">Regions</a></li>
+		        <li><a href="http://digital.soas.ac.uk/discip/" target="_blank">Subjects</a></li>
+		        <li><a href="http://digital.soas.ac.uk/lang/" target="_blank">Languages</a></li>
+		        <li><a href="http://digital.soas.ac.uk/asc/" target="_blank">Archives</a></li>
+		      </ul>
+		      <!-- Right navbar (Options) -->
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="http://digital.soas.ac.uk/dacp/geography/" target="_blank">Map browse</a></li>
+		        <li><a href="http://digital.soas.ac.uk/dacp/all/" target="_blank">All items</a></li>
+		        <li><a href="http://digital.soas.ac.uk/dacp/advanced/" target="_blank">Advanced search</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+	  </nav>
+	<!-- Map -->
+  	<div id="map"></div>
+  </div>
+  <!-- Footer -->
+  <footer class="footer">
+  	<!-- First row (footer options) -->
+  	<div class="container pBottom">
+  		<div class="footerPadd">
+	  		<div class="col-sm-4 col-md-4" align="center">
+	  			<span><a href="http://digital.soas.ac.uk/my/logon/" target="_blank" class="whiteText">My digital collections</a></span>
+	  		</div>
+	  		<div class="col-sm-4 col-md-4" align="center">
+	  			<span><a href="http://digital.soas.ac.uk/tree/" target="_blank" class="whiteText">All collections</a></span>
+	  		</div>
+	  		<div class="col-sm-4 col-md-4" align="center">
+	  			<span><a href="http://digital.soas.ac.uk/contact/" target="_blank" class="whiteText">Ask us a question</a></span>
+	  		</div>
+	  	</div>
+	  	<hr>
+	  	<!-- Second row (footer options) -->
+	  	<div class="pBottom">
+	  		<div class="col-sm-12 col-md-12" align="center">
+	  			<span><a href="https://library.soas.ac.uk/" target="_blank" class="whiteText">SOAS Library Catalogue</a></span>
+	  		</div>
+	  	</div>
+	  	<hr>
+	  	<!-- Third row - left (footer options) -->
+	  	<nav class="misc">
+			<ul>
+				<li>
+					<a href="https://www.soas.ac.uk/utility/privacy-policy.html" target="_blank" class="whiteText">Privacy</a>
+				</li>
+				<li>
+					<a href="http://digital.soas.ac.uk/permissions/" target="_blank" class="whiteText">Permissions</a>
+				</li>
+				<li>
+					<a href="http://digital.soas.ac.uk/takedown/" target="_blank" class="whiteText">Take-Down Policy</a>
+				</li>
+				<li>
+					<span><a href="http://digital.soas.ac.uk/stats/" target="_blank" class="whiteText">Statistics</a>
+				</li>
+				<li>
+					<a href="http://digital.soas.ac.uk/rss/" target="_blank" class="whiteText">RSS</a>
+				</li>
+			</ul>
+		</nav>
+		<!-- Third row - right (footer options) -->
+		<nav class="sm-icons">
+			<ul>
+				<li class="tw">
+					<a target="_blank" href="http://twitter.com/soas">Twitter</a>
+				</li>
+				<li class="fb">
+					<a target="_blank" href="http://www.facebook.com/soasunioflondon">Facebook</a>
+				</li>
+				<li class="gp">
+					<a target="_blank" href="http://plus.google.com/u/0/b/113979649841351330915/+SoasAcUk/posts">Google+</a>
+				</li>
+				<li class="yt">
+					<a target="_blank" href="http://www.youtube.com/user/soasuniversity">YouTube</a>
+				</li>
+				<li class="in">
+					<a target="_blank" href="https://www.linkedin.com/edu/school?id=12641&trk=edu-cp-title">LinkedIn</a>
+				</li>
+				<li class="sc">
+					<a target="_blank" href="https://soundcloud.com/soas-university-of-london">SoundCloud</a>
+				</li>
+				<li class="ig">
+					<a target="_blank" href="https://www.instagram.com/soasuni/">Instagram</a>
+				</li>
+				<li class="uk">
+					<a target="_blank" href="http://www.weibo.com/SOASLondon">Weibo</a>
+				</li>
+			</ul>
+		</nav>
+  	</div>
+  	<!-- Copyright -->
+  	<div class="footerBackg">
+  		<div align="center">
+	  		<span class="whiteText">© 2016, SOAS, University of London - Powered by <a href="http://sobekrepository.org/" target="_blank" class="whiteText">SobekCM</a> with assistance from <a href="http://sobekdigital.com/" target="_blank" class="whiteText">SobekDigital</a></span>
+  		</div>
+  	</div>
+  </footer>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Map JS-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrvwkChMKGSdMoRhAcsjkdgNQYVlTEXJI" type="text/javascript"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
